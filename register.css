@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #242474;
+}
+.form{
+    background-color: white;
+    width: 29%;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: none; 
+    border-radius: 25px;
+    font-family: "Inter", serif;
+}
+.judul{
+    color: #242474;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0;
+}
+input{
+    width: 100%;
+
+}
+.submit{
+    width: 100%;
+    border: none;
+    background-color:#242474;
+    color: white;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.namadepan{
+    width: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.namabelakang{
+    width: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.email{
+    width: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.password{
+    width: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.akun{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.akun a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #242474;
+}
+.row{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}  
